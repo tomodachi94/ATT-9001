@@ -8,6 +8,7 @@ Gem::Specification.new do |spec|
 
 	spec.files = Dir.glob("{lib}/**/*")
 	spec.require_paths = ["lib"]
+    spec.bindir = ["exe"]
 
 	spec.add_runtime_dependency "mediawiki-butt", "~> 4.0.1"
 end

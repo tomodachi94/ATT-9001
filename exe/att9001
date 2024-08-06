@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+# This file assumes that the project is installed as a gem,
+# so a regular require is okay here.
+require "att9001/att9001"
